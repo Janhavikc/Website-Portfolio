@@ -1,7 +1,12 @@
 module.exports = {
     apps : [{
       name   : "app1",
-      script : "./main.js"
+      script : {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+      }
     }]
   }
   
