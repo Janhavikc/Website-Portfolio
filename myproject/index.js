@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+function mainBody(){
+  return 
+  `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -82,4 +85,8 @@
     </main>
     <script type="module" src="/main.js"></script>
   </body>
-</html>
+</html>`
+}
+
+mainBody();
+
