@@ -1,7 +1,14 @@
-module.exports = {
-    apps : [{
-      name   : "app1",
-      script : "./package.json"
-    }]
-  }
-  
+import vue from '@vitejs/plugin-vue'
+
+/**
+  * https://vitejs.dev/config/
+  * @type {import('vite').UserConfig}
+  */
+export default {
+   plugins: [vue()],
+
+   // add this:
+   server: { 
+     host: '0.0.0.0'
+   } 
+}
