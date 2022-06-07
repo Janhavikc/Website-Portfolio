@@ -6,4 +6,4 @@ If you want to run this portfolio on your laptop just do the following steps:
 1. `npm install`
 2. `npm start`
 
-You can view the below demo:
+You can view the website link here https://janhavikc.surge.sh/ and the below demo video:
